@@ -5,7 +5,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20190502152222_Create_Tables.cs" />
+    <Compile Remove="Migrations\20190502152222_Create_Tables.Designer.cs" />
+    <Compile Remove="Migrations\20190502152743_Create_Tables.cs" />
+    <Compile Remove="Migrations\20190502152743_Create_Tables.Designer.cs" />
+    <Compile Remove="Migrations\20190507115317_Create_Table.cs" />
+    <Compile Remove="Migrations\20190507115317_Create_Table.Designer.cs" />
+    <Compile Remove="Migrations\20190507122332_Create_Table.cs" />
+    <Compile Remove="Migrations\20190507122332_Create_Table.Designer.cs" />
+    <Compile Remove="Migrations\20190514153540_create_tables.cs" />
+    <Compile Remove="Migrations\20190514153540_create_tables.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.9" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.4" />
   </ItemGroup>
 
   <ItemGroup>

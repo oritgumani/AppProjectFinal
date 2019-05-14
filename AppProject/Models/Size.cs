@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace AppProject.Models
 {
-    public class Category
+    public class Size
     {
         [Key]
-        public int CategoryId { get; set; }
-        public string Name { get; set; }
-        public ICollection<SubCategory> SubCategories { get; set; }
+        public int SizeId { get; set; }
+        public string SizeName { get; set; }
+        public ICollection<ConectTable> Detail { get; set; }
     }
 }

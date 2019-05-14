@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace AppProject.Models
 {
-    public class Category
+    public class Color
     {
         [Key]
-        public int CategoryId { get; set; }
-        public string Name { get; set; }
-        public ICollection<SubCategory> SubCategories { get; set; }
+        public int ColorId { get; set; }
+        public string ColorName { get; set; }
+        public ICollection<ConectTable> Detail { get; set; }
     }
 }
